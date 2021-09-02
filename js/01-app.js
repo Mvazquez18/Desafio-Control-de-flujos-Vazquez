@@ -1,9 +1,7 @@
-let numero = 3000
-const envios = "si su envío es gratis"
+let numero = parseInt (prompt ("Ingrese el valor del producto para saber si su envío tendrá costo o no"))
+const esMayor= numero > 3000
 
-alert ("Hola, coloque el precio del producto para saber si" + envios)
-
-if (numero > 3000) {
+if (esMayor) {
     alert ("Su envío será gratis") }
 else {
     alert ("Su envío tendrá un costo de $500")
