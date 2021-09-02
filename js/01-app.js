@@ -1,20 +1,10 @@
-let numero1, numero2, resultado;
-let nombreJuego;
-let precioJuego;
+let numero = 3000
+const envios = "si su envío es gratis"
 
+alert ("Hola, coloque el precio del producto para saber si" + envios)
 
-alert ('Introduzca el nombre del juego')
-nombreJuego = (prompt ("Ingrese el nombre del juego "));
-
-precioJuego= "El precio final de "
-
-
-
-alert ('¡Gran elección! Ahora introduzca el precio para calcular el valor final con impuestos.')
-numero1 = (prompt ("Ingrese el monto:"));
-
-numero2 = 1.65;
-
-resultado= numero1 * numero2;
-
-alert (precioJuego+nombreJuego+" será de $"+resultado);
+if (numero > 3000) {
+    alert ("Su envío será gratis") }
+else {
+    alert ("Su envío tendrá un costo de $500")
+}
