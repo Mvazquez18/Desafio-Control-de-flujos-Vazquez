@@ -2,7 +2,7 @@ let nombre =""
 let contar = 0;
 let razon=""
 let puntaje =""
-alert ("Enumere las películas/serios que vio últimamente. Escriba su opinión y un puntaje.");
+alert ("Enumere las películas/series que vio últimamente. Escriba su opinión y un puntaje.");
 
 while (nombre =" ") {
  
