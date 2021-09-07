@@ -8,7 +8,7 @@ while (nombre =" ") {
  
     
     nombre =prompt ("Introduzca el nombre de la película");
-    razon = razon.toUpperCase();
+    nombre = nombre.toUpperCase();
 
     puntaje= prompt ("¿Que puntaje le pondría?");
     
