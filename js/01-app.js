@@ -1,5 +1,4 @@
 let nombre =""
-let contar = 0;
 let razon=""
 let puntaje =""
 alert ("De un puntaje y escriba su opinión acerca de las últimas películas/series que vió.");
@@ -30,7 +29,7 @@ while (nombre =" ") {
        
     }
 
-     if (puntaje <=1) {
+     if (puntaje =1) {
         alert ("¿Pero puede ser de esas que son tan malas que son buenas? Te recomiendo The Room (2003), es un buen ejemplo de esto")
        
     }
