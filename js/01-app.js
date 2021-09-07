@@ -7,7 +7,7 @@ alert ("De un puntaje y escriba su opinión acerca de las últimas películas/se
 while (nombre =" ") {
  
     
-    nombre =prompt ("Introduzca el nombre de la película");
+    nombre =prompt ("Introduzca el nombre de la película/serie");
     nombre = nombre.toUpperCase();
 
     puntaje= prompt ("¿Que puntaje le pondría?");
